@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "frog vercel-build",
+    "start": "node index.tsx",
+  "build": "tsc && node index.js",
     "dev": "frog dev",
     "deploy": "vercel"
   },
