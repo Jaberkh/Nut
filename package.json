@@ -3,11 +3,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node index.tsx",
-  "build": "tsc && node index.js",
-    "dev": "frog dev",
-    "deploy": "vercel"
-  },
+  "start": "tsx index.tsx",
+  "build": "tsc",
+  "dev": "frog dev",
+  "deploy": "vercel"
+}
+,
   "dependencies": {
     "@duneanalytics/client-sdk": "^0.2.5",
     "frog": "^0.18.3",
