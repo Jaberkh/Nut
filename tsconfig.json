@@ -9,6 +9,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "jsxImportSource": "frog/jsx",
+    "esModuleInterop": true,
 
     /* Linting */
     "strict": true,
@@ -16,7 +17,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    "types": ["frog/client"]
+    "types": ["frog/client"],
+
+    
+    "outDir": "dist"
   },
   "include": ["**/*.ts", "**/*.tsx", "**/*.mtsx"]
 }
